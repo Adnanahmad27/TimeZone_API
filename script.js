@@ -64,7 +64,7 @@ function fillingAddress(address){
                 <p>Offset DST:: <span id="curr-dst"></span>${Info.timezone.offset_DST}</p>
                 <p>Offset DST Seconds: <span id="s-dst-seconds">${Info.timezone.offset_DST_seconds}</span></p>
                 <p>Country: <span id="s-country">${Info.country}</span></p>
-                <p>Postcode: <span id="s-postcode">${Info.country_code}</span></p>
+                <p>Postcode: <span id="s-postcode">${Info.postcode}</span></p>
                 <p>City: <span id="s-city">${Info.city}</span></p>`;
                 document.getElementById('search').appendChild(container);
             
