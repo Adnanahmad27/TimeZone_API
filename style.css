@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.time-zone{
+    padding : 20px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    gap : 20px;
+    height : 50vh;
+}
+.container{
+    border: 1px solid;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.lat-long{
+    display: flex;
+    gap : 50%;
+}
+.bg-w{
+    background-color: white;
+    color:black
+}
+.bg-b{
+    background-color: black;
+    color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:7px
+}
+label{
+    font-size: 1.5em;
+}
+input{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 4px;
+    color : white;
+}
+.btn{
+    padding:2px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+}
+span{
+    font-size: 1.0rem;
+    font-style: italic;
+    font-weight: bold;
+}

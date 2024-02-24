@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TimeZone</title>
+</head>
+<body>
+    
+    <div class="time-zone bg-w" >
+        <h1>TimeZone Api</h1>
+        <h2>Your Current Time Zone</h2>
+        <div class="curr container" id="current">
+            <p>Name Of Time Zone: <span id="curr-timezone"></span></p>
+            <div class="lat-long">
+                <p>Lat: <span id="curr-lat"></span></p>
+                <p>Long: <span id="curr-long"></span></p>
+            </div>
+            <p>Offset STD: <span id="curr-std"></span></p>
+            <p>Offset STD Seconds: <span id="curr-std-seconds"></span></p>
+            <p>Offset DST: <span id="curr-dst"></span></p>
+            <p>Offset DST Seconds: <span id="curr-dst-seconds"></span></p>
+            <p>Country: <span id="curr-country"></span></p>
+            <p>Postcode: <span id="curr-postcode"></span></p>
+            <p>City: <span id="curr-city"></span></p>
+        </div>
+    </div>
+    <div class="time-zone bg-b" id="search">
+        <form id="form">
+            <label for="address">Enter Address</label>
+            <input  placeholder="Address" id="address" name="address" required>
+            <button class="btn" style="width: 90px">Submit</button>
+        </form>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
